@@ -1,0 +1,66 @@
+/* Responsive for small devices  */
+
+@media screen and (max-width: 640px) {
+    .space{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    ul{
+        gap: 0.5rem;
+        justify-content: left;
+        align-items: left;
+    }
+    .all-tabs{
+        gap: 0.5rem;
+    }
+
+    .banner-container{
+        flex-direction: column;
+        background-position: bottom;
+        gap: 1rem;
+    }
+
+    .banner-image img{
+        padding-top: 2rem;
+    }
+
+    .footer-container, .resume-content, .work-infos{
+        flex-direction: column;
+    }
+
+    .about-infos{
+        flex-wrap: wrap;
+    }
+    
+    .about-container{
+        padding: 1rem;
+    }
+}
+
+
+
+/* Responsive for medium devices  */
+
+@media screen and (min-width: 640px) and (max-width: 786px) {
+    .space{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .banner-container{
+        flex-direction: column;
+        background-position: bottom;
+        gap: 1rem;
+    }
+
+    .banner-image img{
+        padding-top: 2rem;
+    }
+    .work-infos{
+        flex-direction: column;
+    }
+
+    .about-container{
+        padding: 3rem;
+    }
+}
