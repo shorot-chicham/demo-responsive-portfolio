@@ -133,3 +133,25 @@ li a{
     align-items: center;
     gap: 2rem;
 }
+
+/* About me container start from here  */
+
+.about-container{
+    background-color: #FFF8F3;
+    padding: 7rem;
+    margin: 3rem 8%;
+    border-radius: 8px;
+    border: none;
+}
+
+.about-content{
+    text-align: center;
+}
+
+.about-infos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
