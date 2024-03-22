@@ -1,0 +1,135 @@
+/* open sans google font  */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.space{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+/* nav and banner container start from here  */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 1rem;
+}
+
+
+header{
+    background-image: url('/images/developer.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    background-color: #FFF8F3;
+}
+
+.logo-style{
+    color: #FD6E0A;
+
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.all-tabs{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 2rem;
+}
+
+ul li{
+    list-style-type: none;
+
+}
+
+li a{
+    text-decoration: none;
+}
+
+.nav-btn{
+    border: none;
+    background-color: #FD6E0A;
+    color: #ffffff;
+    font-size: medium;
+    font-weight: 600;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+/* banner container  */
+
+.banner-container{
+    background-image: url(/images/header_bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.banner-sub-title{
+    color: #474747;
+}
+
+.banner-title{
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.banner-desc{
+    color: #757575;
+    margin: 1rem 0rem;
+}
+
+.banner-image img{
+    width: 16rem;
+    padding-top: 4rem;
+}
+
+.banner-btn1{
+    border: none;
+    border-radius: 4px;
+    background-color: #FD6E0A;
+    color: #ffffff;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.banner-btn2{
+    border: 1px solid #FD6E0A;
+    border-radius: 4px;
+    background-color: #FFF8F3;
+    color: #FD6E0A;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.banner-buttons{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 2rem;
+}
