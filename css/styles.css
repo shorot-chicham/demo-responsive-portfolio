@@ -155,3 +155,34 @@ li a{
     gap: 2rem;
     margin-top: 2rem;
 }
+
+/* my work container styles start from here  */
+.work-container{
+    margin-bottom: 3rem;
+}
+
+.work-content{
+    text-align: center;
+}
+
+.work-desc{
+    width: 80%;
+    margin: 1rem auto;
+    
+}
+
+.work-infos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0rem;
+}
+
+.work{
+    background-color: #fff;
+    padding: 1rem;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 0px 2px 1px #757575;
+}
